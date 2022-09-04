@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: "my-prj-service-svc"
+  BASE_URL: "http://my-prj-service-svc:80"
 };
 
 /*
