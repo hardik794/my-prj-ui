@@ -1,3 +1,3 @@
-// let baseUrl = "http://localhost:8005"
-let baseUrl = "http://easylife-env.eba-nygjzyhb.us-east-1.elasticbeanstalk.com"
+import { environment } from '../../environments/environment'
+let baseUrl = environment.BASE_URL;
 export default baseUrl;
