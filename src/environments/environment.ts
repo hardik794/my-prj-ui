@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: "localhost"
+  BASE_URL: "my-prj-service-svc"
 };
 
 /*
