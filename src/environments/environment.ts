@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: $ENV.API_URL
+  BASE_URL: process.env.API_URL
 };
 
 /*

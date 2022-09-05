@@ -1,5 +1,13 @@
-declare var $ENV: ENV;
+declare var process: Process;
 
-interface ENV {
+interface Process {
+    env: Env
+}
+
+interface Env {
     API_URL: string
+}
+
+interface GlobalEnvironment {
+    process: Process
 }
