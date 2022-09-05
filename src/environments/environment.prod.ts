@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  BASE_URL: "http://my-prj-service-svc:80"
+  BASE_URL: $ENV.API_URL
 };
