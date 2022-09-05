@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: process.env.API_URL
+  BASE_URL: "my-prj-service-svc"
 };
 
 /*
